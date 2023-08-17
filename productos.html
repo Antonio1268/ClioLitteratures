@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@700&family=Handlee&family=Lilita+One&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@400;500;700;800&family=Righteous&display=swap" rel="stylesheet">    
+    <title>CLIO LITTéRATURE</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="navegacion.css" rel="stylesheet">
+    <link href="css/navegacion/logo-nav.css" rel="stylesheet">
+    <link href="css/navegacion/titulo-nav.css" rel="stylesheet">
+    <link href="css/navegacion/titulo-color.css" rel="stylesheet">
+    <link href="css/navegacion/buscados-nav.css" rel="stylesheet">
+    <link href="css/slider/slider.css" rel="stylesheet">
+    <link href="css/slider/descripcion-slider.css" rel="stylesheet">
+    <link href="css/libros-productos/container-libros.css" rel="stylesheet">
+    <link href="css/libros-productos/elementos-container.css" rel="stylesheet">
+    <link href="css/libros-productos/titulo-seccion.css" rel="stylesheet">
+    <link href="css/libros-productos/seccion-libros.css" rel="stylesheet">
+    <link href="pie-de-pagina.css" rel="stylesheet">
+    <link href="css/footer/formulario-pie-de-pagina.css" rel="stylesheet">
+    <link href="css/footer/hipertexto-pie-de-pagina.css" rel="stylesheet">
+    <link href="css/footer/imagen-pie-de-pagina.css" rel="stylesheet">
+    <link href="css/cabecera/cabecera.css" rel="stylesheet">
+    <link href="css/cabecera/imagen-cabecera.css" rel="stylesheet">
+    <link href="css/cabecera/titulo-cabecera.css" rel="stylesheet">
+    <link href="css/menu-administrador/productos-administrador.css" rel="stylesheet">
+</head>
+<body>
+    <header class="navegacion">
+            <img src="img/history (1).png" alt="Logo cerebro" class="logo__nav">
+            <span class="titulo__nav">CLIO</span>
+            <span class="titulo__color">LITT<span class="titulo__letra">é</span>RATURE</span>
+            <div>
+                <input type="search" class="buscador__navegador" placeholder="¿Qué deseas buscar?">
+                <button class="boton__buscador"><img src="img/Vector.png"></button>
+                <button class="boton__login" onclick="location.href='/menu-administrador.html'">Agregar producto</button>
+            </div>
+    </header>
+    <section class="libros__productos productos__seccion-tres">
+        <div class="encabezado__seccion-libros" id="tercera__sección-libros">
+            <h1 class="titulo__seccion-libros" id="titulo-productos-administracion">Temas administración</h1>
+        </div>
+        <div class="container__libros"data-table></div>
+    </section>
+    <footer class="pieDepagina">
+        <div class="imagen__pieDepagina">
+            <img src="img/deep-learning.png" alt="Logo cerebro" class="logo__nav logo__footer">
+            <span class="titulo__nav titulo__footer">CLIO</span>
+            <span class="titulo__color titulo__footer-color">LITT<span class="titulo__letra titulo__footer-letra">é</span>RATURE</span>
+        </div>
+        <div class="hipertexto__pieDepagina">
+            <ul>
+                <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Quienes somos</a></li>
+                <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Política de privacidad</a></li>
+                <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Programa de fidelidad</a></li>
+                <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Nuestras oficinas</a></li>
+                <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Quiero participar</a></li>
+            </ul>
+        </div>
+        <div class="formulario__pieDepagina">
+            <span class="titulo__formulario-pieDepagina">Hable con nosotros</span>
+            <form class="formulario__contacto" data-form-contacto>
+                <div class="container__contacto">
+                    <span class="logo__contacto"><ion-icon name="man-sharp"></ion-icon></span>
+                    <input type="text" class="input__contacto" data-nombre-contacto>
+                    <label class="label__contacto">Nombre</label>
+                </div>
+                <div class="container__contacto">
+                    <span class="logo__contacto"><ion-icon name="mail-sharp"></ion-icon></span>
+                    <input type="text" class="input__contacto" data-mensaje-contacto>
+                    <label class="label__contacto">Mensaje</label>
+                </div>
+                <button class="btn__contacto">Enviar</button>
+            </form>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="js/menu-edicion.js"></script>
+    <script type="module" src="js/contacto.js"></script>
+</body>
+</html>

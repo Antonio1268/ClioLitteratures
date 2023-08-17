@@ -1,0 +1,102 @@
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@700&family=Handlee&family=Lilita+One&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@400;500;700;800&family=Righteous&display=swap" rel="stylesheet">    
+    <title>Document</title>
+    <link href="css/menu-administrador/menu-navegacion.css" rel="stylesheet">
+    <link href="css/menu-administrador/fondo-menu-administrador.css" rel="stylesheet">
+    <link href="css/menu-administrador/footer-menu-administrador.css" rel="stylesheet">
+    <link href="css/menu-administrador/registro-menu-administrador.css" rel="stylesheet">
+    <link href="css/menu-administrador/titulo-menu-administrador.css" rel="stylesheet">
+</head>
+<body>
+    <header class="navegacion__login">
+        <img src="img/history (1).png" alt="Logo cerebro" class="logo__nav-login">
+        <span class="titulo__nav">CLIO</span>
+        <span class="titulo__color">LITT<span class="titulo__letra">é</span>RATURE</span>
+        <div>
+            <input type="search" class="buscador__navegador" placeholder="¿Qué deseas buscar?">
+            <button class="boton__buscador"><img src="img/Vector.png"></button>
+        </div>
+    </header>
+    <img src="img/5 Esclavos de Guinea cavando en busca de oro y plata en una mina de la isla la española.jpg" alt="" class="imagen__fondo-login">
+    <section class="container__login">
+        <div class="login__principal">
+            <span class="titulo__login">Agregar producto</span>
+            <form class="registro__usuario" data-form>
+                <div class="input__box">
+                    <input
+                    name="imagen"
+                    id="imagen"
+                    class="input__principal" 
+                    type="text"
+                    data-imagen
+                    />
+                    <label class="label__principal">URL de la imagen</label>
+                </div>
+                <div class="input__box">
+                    <input 
+                    name="titulo"
+                    id="titulo"
+                    class="input__principal"
+                    type="text" 
+                    data-titulo
+                    />
+                    <label class="label__principal">Titulo del texto</label>
+                </div>
+                <div class="input__box">
+                    <input 
+                    name="lexico"
+                    id="lexico"
+                    class="input__principal" 
+                    type="text" 
+                    data-lexico
+                    />
+                    <label class="label__principal">Lexico</label>
+                </div>
+                <button type="submit" class="btn__submit">Compartir</button>
+            </form>
+        </div>
+    </section>
+        <footer class="pieDepagina">
+            <div class="imagen__pieDepagina pieDePagina__menuEditor">
+                <img src="img/history (1).png" alt="Logo cerebro" class="logo__nav logo__footer">
+                <span class="titulo__nav titulo__footer menuEditor-dos">CLIO</span>
+                <span class="titulo__color titulo__footer-color menuEditor-tres">LITT<span class="titulo__letra titulo__footer-letra">é</span>RATURE</span>
+            </div>
+            <div class="hipertexto__pieDepagina">
+                <ul>
+                    <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Quienes somos</a></li>
+                    <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Política de privacidad</a></li>
+                    <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Programa de fidelidad</a></li>
+                    <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Nuestras oficinas</a></li>
+                    <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Quiero participar</a></li>
+                </ul>
+            </div>
+            <div class="formulario__pieDepagina">
+                <span class="titulo__formulario-pieDepagina">Hable con nosotros</span>
+                <form class="formulario__contacto">
+                    <div class="container__contacto">
+                        <span class="logo__contacto"><ion-icon name="man-sharp"></ion-icon></span>
+                        <input type="text" class="input__contacto">
+                        <label class="label__contacto">Nombre</label>
+                    </div>
+                    <div class="container__contacto">
+                        <span class="logo__contacto"><ion-icon name="mail-sharp"></ion-icon></span>
+                        <input type="text" class="input__contacto">
+                        <label class="label__contacto">Mensaje</label>
+                    </div>
+                    <button class="btn__contacto">Enviar</button>
+                </form>
+            </div>
+        </footer>
+        <script src="/js/login.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script type="module" src="js/registro-libros.js"></script> 
+        <script type="module" src="js/servidor.js"></script> 
+
+</body>
+</html>

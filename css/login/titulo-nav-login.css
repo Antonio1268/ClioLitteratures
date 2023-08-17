@@ -1,0 +1,57 @@
+.titulo__nav{
+    position: absolute;
+    left: 7rem;
+
+    font-family: lilita one, serif;
+    font-size: 1.5rem;
+}
+.titulo__color{
+    position: absolute;
+    left: 10.5rem;
+
+    font-family: lilita one, serif;
+    font-size: 1.5rem;
+    color: #2A7AE4;
+}
+
+.titulo__letra{
+    font-family: Handlee, serif;
+    font-size: 1.5rem;
+}
+
+.logo__nav-login {
+    width: 68px;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 400px){
+    .titulo__nav{
+        display: none;
+    }
+    .titulo__color{
+        display: none;
+    }
+    .titulo__letra{
+        display: none;
+    }
+    .logo__nav-login{
+        display: none;
+    }
+    
+}
+
+@media screen and  (max-width: 820px) and (min-width: 410px){
+    .titulo__nav{
+        display: none;
+    }
+    .titulo__color{
+        display: none;
+    }
+    .titulo__letra{
+        display: none;
+    }
+    .logo__nav-login{
+        display: none;
+    }
+}

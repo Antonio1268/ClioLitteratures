@@ -1,0 +1,63 @@
+{
+  "libros": [
+    {
+      "imagen": "https://th.bing.com/th/id/OIP.0faxVEkzhdjr_TQccEYVcQHaEK?pid=ImgDet&rs=1",
+      "titulo": "Segunda guerra mundial. Totalitarismo en Alemania",
+      "lexico": "1400",
+      "id": "bJxruYJ"
+    },
+    {
+      "imagen": "https://th.bing.com/th/id/OIP.vVMUeqmElGuTNSCs4bVOYQHaEo?pid=ImgDet&rs=1",
+      "titulo": "Guerra de Reforma en México",
+      "lexico": "1200",
+      "id": "WntCCxI"
+    },
+    {
+      "imagen": "https://th.bing.com/th/id/R.1bcf080c371edee37d11ed1ede426df9?rik=V%2batf4Ld%2fEMHHg&pid=ImgRaw&r=0",
+      "titulo": "Desembarco de Normandia. Día D",
+      "lexico": "2000",
+      "id": "hKzBXDB"
+    },
+    {
+      "imagen": "https://th.bing.com/th/id/OIP.XU603h--mA--TmxosdxwXAHaEq?pid=ImgDet&rs=1",
+      "titulo": "Midway. La batalla en el Pacifico",
+      "lexico": "3000",
+      "id": "hfZWcY8"
+    },
+    {
+      "imagen": "https://th.bing.com/th/id/R.407837aabcd93dda5c96c95d0b1da8cc?rik=1csIobdbf9THeA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-vo4uegSvCw0%2fVZc_TDS_TxI%2fAAAAAAAAAIM%2fTaf3uDExvHU%2fs1600%2fClero-edad-media.jpg&ehk=UaU%2fNBwBYSMPyTMrJydV%2bKUOjzcyCKLH%2bU480mUfnm0%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
+      "titulo": "La edad media. Aspectos religiosos",
+      "lexico": "1200 palabras",
+      "id": "uvVAQJi"
+    },
+    {
+      "imagen": "https://th.bing.com/th/id/OIP.QW4ZUoxl5Ngj3Yn3yNy5jAHaFh?w=288&h=214&c=7&r=0&o=5&pid=1.7",
+      "titulo": "Alan Turing. Experto en decodificación",
+      "lexico": "1300 palabras",
+      "id": "C2zZfqb"
+    },
+    {
+      "imagen": "https://th.bing.com/th/id/OIP.X0m1kiLwp5L57RWbn_LE5gHaHw?w=186&h=193&c=7&r=0&o=5&pid=1.7",
+      "titulo": "Grigori Rasputin y la monarquía rusa",
+      "lexico": "1000 palabras",
+      "id": "ES_WMxv"
+    }
+  ],
+  "contacto": [
+    {
+      "nombre": "Juan Carlos Soto Garcia",
+      "mensaje": "Deseo contactarme con usted",
+      "id": "1"
+    },
+    {
+      "nombre": "raul",
+      "mensaje": "hola",
+      "id": "2DjcLFl"
+    },
+    {
+      "nombre": "Saúl",
+      "mensaje": "Me gustaría contactarme con usted y agendar una cita inmediatamente. Por favor mande un mensaje al correo siguiente: uuuni@gmail.com",
+      "id": "JP1hIok"
+    }
+  ]
+}

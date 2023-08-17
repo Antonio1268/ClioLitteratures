@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@700&family=Handlee&family=Lilita+One&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@400;500;700;800&family=Righteous&display=swap" rel="stylesheet">    
+    <title>Actualizar producto</title>
+    <link href="css/editar-cliente/pagina-edicion.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="img/history (1).png" alt="Logo cerebro" class="logo__nav-login">
+    </header>
+      <section class="container__edicion">
+        <div class="login__principal">
+            <span class="titulo__login">Editar producto</span>
+            <form class="registro__usuario" data-form-editar>
+                <div class="input__box">
+                    <label class="label__principal">URL de la imagen</label>
+                    <input
+                    name="imagen"
+                    id="imagen"
+                    class="input__principal" 
+                    type="text"
+                    data-imagen-editar
+                    />
+                </div>
+                <div class="input__box">
+                    <label class="label__principal">Titulo del texto</label>
+                    <input 
+                    name="titulo"
+                    id="titulo"
+                    class="input__principal"
+                    type="text" 
+                    data-titulo-editar
+                    />
+                </div>
+                <div class="input__box">
+                    <label class="label__principal">Lexico</label>
+                    <input 
+                    name="lexico"
+                    id="lexico"
+                    class="input__principal" 
+                    type="text" 
+                    data-lexico-editar
+                    />
+                </div>
+                <button type="submit" class="btn__submit">Modificar</button>
+            </form>
+        </div>
+    </section>
+    <script type="module" src="js/servidor.js"></script> 
+    <script type="module" src="js/menu-edicion.js"></script>
+    <script type="module" src="js/actualizar-productos.js"></script>
+  </body>
+</html>

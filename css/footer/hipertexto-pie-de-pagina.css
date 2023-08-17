@@ -1,0 +1,30 @@
+.parrafo__hipertexto-footer{
+    list-style: none;
+    padding-top: 1.5rem;
+}
+
+.link__hipertexto-footer{
+    text-decoration: none;
+    font-family: raleway, serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#464646;
+}
+
+.link__hipertexto-footer:hover{
+    text-decoration: underline;
+    color: #2A7AE4;
+    text-decoration-color: #2276F1;
+}
+
+@media only screen and (max-width: 400px){
+    .link__hipertexto-footer{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and  (max-width: 820px) and (min-width: 410px){
+    .link__hipertexto-footer{
+        font-size: 1.9rem;
+    }
+}

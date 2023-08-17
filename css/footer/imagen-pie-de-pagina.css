@@ -1,0 +1,16 @@
+.logo__footer{
+    width: 50px;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+}
+
+.titulo__footer{
+    font-size: 1.3rem;
+    padding-top: 2rem;
+}
+
+.titulo__footer-color{
+    font-size: 1.3rem;
+    padding-top: 1.8rem;
+    color:#2A7AE4;
+}

@@ -1,0 +1,13 @@
+.titulo__color{
+    position: absolute;
+    left: 10.5rem;
+
+    font-family: lilita one, serif;
+    font-size: 1.5rem;
+    color: #E2EAF1;
+}
+
+.titulo__letra{
+    font-family: Handlee, serif;
+    font-size: 1.5rem;
+}

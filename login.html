@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@700&family=Handlee&family=Lilita+One&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@400;500;700;800&family=Righteous&display=swap" rel="stylesheet">    
+    <title>Login</title>
+    <link href="css/login/navegacion-login.css" rel="stylesheet">
+    <link href="reset.css" rel="stylesheet">
+    <link href="css/login/registro-usuario.css" rel="stylesheet">
+    <link href="css/login/fondo-login.css" rel="stylesheet">
+    <link href="css/login/titulo-login.css" rel="stylesheet">
+    <link href="css/login/titulo-nav-login.css" rel="stylesheet">
+    <link href="css/login/buscador-nav-login.css" rel="stylesheet">
+    <link href="css/login/footer-login.css" rel="stylesheet">
+</head>
+<body>
+    <header class="navegacion__login">
+        <img src="img/history (1).png" alt="Logo cerebro" class="logo__nav-login">
+        <span class="titulo__nav">CLIO</span>
+        <span class="titulo__color">LITT<span class="titulo__letra">é</span>RATURE</span>
+        <div>
+            <input type="search" class="buscador__navegador" placeholder="¿Qué deseas buscar?">
+            <button class="boton__buscador"><img src="img/Vector.png"></button>
+        </div>
+    </header>
+    <img src="img/8 Palacio de Versalles.jpg" alt="" class="imagen__fondo-login">
+    <section class="container__login">
+        <div class="login__principal">
+            <span class="titulo__login">Iniciar Sesión</span>
+            <form class="registro__usuario">
+                <div class="input__box">
+                    <span class="icono__login"><ion-icon name="person-sharp"></ion-icon></span>
+                    <input class="input__principal" type="text" id="usuario">
+                    <label class="label__principal">Usuario</label>
+                </div>
+                <div class="input__box">
+                    <span class="icono__login"><ion-icon name="lock-closed-sharp"></ion-icon></span>
+                    <input class="input__principal" type="password" id="contraseña">
+                    <label class="label__principal">Contraseña</label>
+                </div>
+                <div class="remember__forgot">
+                    <label><input type="checkbox">Recordar usuario</label>
+                    <a href="" class="hipertexto__contraseña">Olvidaste la contraseña</a>
+                </div>
+                <button type="button" class="btn__submit" value="Iniciar Sesión" onclick=login()>Login</button>
+                <div class="login__registro">
+                    <p>No tienes cuenta. <a href="" class="link__registro">Registrate</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="pieDepagina">
+        <div class="imagen__pieDepagina">
+            <img src="img/history (1).png" alt="Logo cerebro" class="logo__nav logo__footer">
+            <span class="titulo__nav titulo__footer">CLIO</span>
+            <span class="titulo__color titulo__footer-color">LITT<span class="titulo__letra titulo__footer-letra">é</span>RATURE</span>
+        </div>
+        <div class="hipertexto__pieDepagina">
+            <ul>
+                <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Quienes somos</a></li>
+                <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Política de privacidad</a></li>
+                <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Programa de fidelidad</a></li>
+                <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Nuestras oficinas</a></li>
+                <li class="parrafo__hipertexto-footer"><a class="link__hipertexto-footer" href="">Quiero participar</a></li>
+            </ul>
+        </div>
+        <div class="formulario__pieDepagina">
+            <span class="titulo__formulario-pieDepagina">Hable con nosotros</span>
+            <form class="formulario__contacto">
+                <div class="container__contacto">
+                    <span class="logo__contacto"><ion-icon name="man-sharp"></ion-icon></span>
+                    <input type="text" class="input__contacto">
+                    <label class="label__contacto">Nombre</label>
+                </div>
+                <div class="container__contacto">
+                    <span class="logo__contacto"><ion-icon name="mail-sharp"></ion-icon></span>
+                    <input type="text" class="input__contacto">
+                    <label class="label__contacto">Mensaje</label>
+                </div>
+                <button class="btn__contacto">Enviar</button>
+            </form>
+        </div>
+    </footer>
+    <script src="/js/login.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.container__texto{
+    background: #e5e5e5;
+}
+.contenido{
+    width: 900px;
+    position: relative;
+    left: 200px;
+}
+.titulo__texto{
+    font-family: oxigen mono, monospace;
+    font-size: 83px;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+.autor__texto{
+    font-size: 25px;
+    padding-top: 22px;
+    padding-bottom: 5px;
+    text-align: end;
+    border-bottom: 3px solid #464646;
+}
+.titulo__contenido{
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+.parrafo__contenido{
+    font-size: 29px;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 42px;
+}

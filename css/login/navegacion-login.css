@@ -1,0 +1,18 @@
+.navegacion__login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #D6DFEC;
+    box-shadow: 0em 0em 1em 2em #D6DFEC;
+}
+
+.logo__nav-login{
+    width: 77px;
+    padding-left: 1rem;
+}
+
+.login__principal{
+    height: 500px;
+    width: 500px;
+}
+

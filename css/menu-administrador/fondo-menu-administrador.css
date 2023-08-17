@@ -1,0 +1,18 @@
+.imagen__fondo-login{
+    position: absolute;
+    width: 1359px;
+    left: -10px;
+    height: 716px;
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .imagen__fondo-login{
+        height: 1938px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .imagen__fondo-login{
+        height: 1438px;
+    }
+}

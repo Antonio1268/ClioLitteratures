@@ -1,0 +1,38 @@
+.linea__descripcion-slider{
+    position: absolute;
+    top: 41.5rem;
+    right: 8rem;
+    font-family: raleway, serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: end;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    color: #464646;
+    width: 1319px;
+    height: 80px; 
+}
+
+.color__descripcion-slider{
+    color:#2A7AE4;
+}
+
+@media only screen and (max-width: 400px){
+    .linea__descripcion-slider{
+        position: absolute;
+        top: 41.5rem;
+        right: -20rem;
+        font-size: 2.1rem;
+        width: 699px;
+       
+    }
+}
+@media screen and  (max-width: 820px) and (min-width: 410px){
+    .linea__descripcion-slider{
+        position: absolute;
+        top: 45.5rem;
+        right: -27rem;
+        font-size: 3.5rem;
+        width: 200%;;
+    }
+}

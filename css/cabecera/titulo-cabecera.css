@@ -1,0 +1,33 @@
+.titulo__cabecera{
+    display: flex;
+    flex-direction: column;
+}
+.parrafo__cabecera{
+    font-family: 'Raleway', serif;
+    font-size: 3.7rem;
+    color: white;
+    padding-left: 1.5rem;
+    padding-top: 5.9rem;
+}
+
+.color__palabra-encabezado{
+  color: #F98A1B;  
+}
+.color__palabra-encabezado-2{
+    color:#EC8C2C;
+}
+.parrafo__cabecera-enfasis{
+    font-family: 'Raleway', serif;
+    font-size: 2.5rem;
+    padding-left: 1.8rem;
+    color: white;
+}
+
+@media only screen and (max-width: 400px){
+   .parrafo__cabecera{
+    font-size: 50px;
+   }
+   .parrafo__cabecera-enfasis{
+    display: none;
+   }
+ }

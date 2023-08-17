@@ -1,0 +1,200 @@
+.container__login{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 434px;
+    height: 544px;
+    left: 466px;
+    top: 123px;
+    border-radius: 2rem;
+    backdrop-filter: blur(8px);
+    background-color: rgba(99, 94, 94, 0.5);  
+    padding-top: 7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.login__principal .registro__usuario{
+    display: flex;
+    flex-direction: column;
+    width: 79%;
+    padding: 31px;
+    position: relative;
+    bottom: 6rem;
+}
+
+.input__box{
+    position: relative;
+    width: 100%;
+    height: 37px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+}
+   
+.label__principal{
+    position: absolute;
+    top: 177%;
+    left: 5px;
+    transform: translateY(-50px);
+    font-size: 1.05rem;
+    transition: 1s;
+    font-family: raleway, serif;
+    font-weight: 400;
+}
+
+.input__principal:focus ~ .label__principal{
+    top: 20px;
+    font-size: 1rem;
+}
+
+.input__principal{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    font-family: raleway, serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #262628;
+    padding-left: 1rem;
+}
+
+.input__principal:focus{
+    border-color: #18ffff;
+}
+
+.icono__login{
+    position: absolute;
+    right: 8px;
+    top: 0.5rem;
+    font-size: 1.2rem;
+    color: #162938;
+    line-height: 57px;
+}
+
+.remember__forgot{
+    display: flex;
+    justify-content: space-between;
+    font-family: raleway, serif;
+}
+.remember__forgot label{
+    accent-color: #161938;
+    margin-right: 3px;
+}
+.hipertexto__contraseña{
+    color: #162938;
+    font-weight: 500;
+    text-decoration: none;
+}
+.hipertexto__contraseña:hover{
+    text-decoration: underline;
+}
+
+.btn__submit{
+    width: 100%;
+    height: 40px;
+    margin-top: 1rem;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-family: raleway, serif;
+    font-weight: 500;
+}
+
+.btn__submit:hover{
+    background: #3E6380;
+}
+
+.login__registro{
+    display: flex;
+    justify-content: center;
+    font-family: raleway, serif;
+    font-size: 16px;
+}
+.link__registro{
+    text-decoration: none;
+    color: #162938;
+    
+}
+.link__registro:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .container__login{
+        height: 1449px;
+        width: 978px;
+        position: relative;
+        left: 10rem;
+    }
+    .login__principal{
+        width: 978px;
+        left: 5rem;
+        position: relative;
+    }
+    .input__box{
+        height: 100px;
+        padding-top: 4rem;
+        border-bottom: 5px solid;
+    }
+    .label__principal{
+        font-size: 4rem;
+        top: 141px;
+        font-weight: 600;
+        color: #1E1E1F;
+    }
+    .input__principal{
+        font-size: 4rem;
+    }
+    .btn__submit{
+        height: 137px;
+        font-size: 3rem;
+        top: 20rem;
+        position: relative;
+    }
+    .input__principal:focus ~ .label__principal{
+        top: 50px;
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .container__login{
+        height: 1171px;
+        width: 978px;
+        position: relative;
+        left: 10rem;
+    }
+    .login__principal{
+        width: 978px;
+        left: 5rem;
+        position: relative;
+    }
+    .input__box{
+        height: 100px;
+        padding-top: 4rem;
+        border-bottom: 5px solid;
+    }
+    .label__principal{
+        font-size: 4rem;
+        top: 141px;
+        font-weight: 600;
+        color: #1E1E1F;
+    }
+    .input__principal{
+        font-size: 4rem;
+    }
+    .btn__submit{
+        height: 137px;
+        font-size: 3rem;
+        top: 13rem;
+        position: relative;
+    }
+    .input__principal:focus ~ .label__principal{
+        top: 50px;
+        font-size: 3rem;
+    }
+}

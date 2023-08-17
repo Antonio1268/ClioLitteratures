@@ -1,0 +1,23 @@
+.titulo__login{
+    font-family: raleway, serif;
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    bottom: 5rem;
+    left: 9rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .titulo__login{
+        font-size: 5rem;
+        left: 3.8rem;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .titulo__login{
+        font-size: 5rem;
+        left: 3.8rem;
+    }
+}

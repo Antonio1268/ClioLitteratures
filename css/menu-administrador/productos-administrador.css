@@ -1,0 +1,53 @@
+#titulo-productos-administracion{
+    padding-top: 3.5rem;
+}
+.buton__productos-dos{
+    width: 115%;
+    height: 40px;
+    background-color: red;
+    border-color: transparent;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    top: 24.8px;
+
+    font-family: raleway, serif;
+    color:white;
+
+    transition: 0.3s;
+}
+
+.buton__productos-dos:hover{
+    transition: 0.3s;
+    background: #E7735E;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.boton__editar-dos{
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 3rem;
+    width: 8rem;
+    background: chartreuse;
+
+    font-family: raleway, serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.boton__editar-dos:hover{
+    background: #35E291;
+    color: white;
+    font-size: 25px ;
+}
+
+.portada__libros:hover{
+    filter:none;
+}

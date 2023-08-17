@@ -1,0 +1,22 @@
+.imagen__cabecera{
+    position: relative;
+    right: 1.8rem;
+}
+
+.ola__cabecera{
+    position: absolute;
+    width: 1353px;
+    left: -5px;
+}
+
+@media only screen and (max-width: 400px){
+   .imagen__cabecera{
+    height: 300px;
+    padding-top: 13rem;
+    position: relative;
+    left: 12px;
+   }
+   .ola__cabecera{
+    width: 733px;
+   }
+}

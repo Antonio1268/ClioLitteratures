@@ -1,0 +1,130 @@
+.navegacion__login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #D6DFEC;
+    box-shadow: 0em 0em 1em 2em #D6DFEC;
+}
+
+.logo__nav-login{
+    width: 77px;
+    padding-left: 1rem;
+}
+
+.login__principal{
+    height: 500px;
+    width: 500px;
+}
+
+.buscador__navegador{
+    position: absolute;
+    left: 24rem;
+    top: 1.6rem;
+    width: 347px;
+    height: 43px;
+    border-radius: 3rem;
+    border:solid #F5F5F5;
+    outline: none;
+    background: #F5F5F5;
+
+    font-family: raleway, serif;
+    padding-left: 3.8rem;
+    font-size: 14px;
+    color: #A2A2A2;
+}
+
+.boton__buscador{
+    position: absolute;
+    left: 25rem;
+    top: 1.9rem;
+    height: 2rem;
+    border: solid #F5F5F5;
+    outline: none;
+    background: #F5F5F5;
+}
+
+.titulo__nav{
+    position: absolute;
+    left: 7rem;
+
+    font-family: lilita one, serif;
+    font-size: 1.5rem;
+}
+.titulo__color{
+    position: absolute;
+    left: 10.5rem;
+
+    font-family: lilita one, serif;
+    font-size: 1.5rem;
+    color: #2A7AE4;
+}
+
+.titulo__letra{
+    font-family: Handlee, serif;
+    font-size: 1.5rem;
+}
+
+.logo__nav-login {
+    width: 68px;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 400px) and (min-width: 0){
+    .navegacion__login{
+        height: 179px;
+        width: 1310px;
+    }
+    .buscador__navegador{
+        display: none
+    }
+    .boton__buscador{
+        display: none;
+    }
+    .logo__nav-login{
+        transform: scale(2.5);
+        left: 15rem;
+        position: relative;
+    }
+    .titulo__nav{
+        font-size: 7rem;
+        left: 24rem;
+    }
+    .titulo__color{
+        font-size: 7rem;
+        left: 39rem;
+    }
+    .titulo__letra{
+        font-size: 7rem;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .navegacion__login{
+        height: 100px;
+        width: 1310px;
+    }
+    .buscador__navegador{
+        display: none
+    }
+    .boton__buscador{
+        display: none;
+    }
+    .logo__nav-login{
+        transform: scale(1.5);
+        left: 15rem;
+        position: relative;
+        padding: 1rem;
+    }
+    .titulo__nav{
+        font-size: 4rem;
+        left: 24rem;
+    }
+    .titulo__color{
+        font-size: 4rem;
+        left: 33rem;
+    }
+    .titulo__letra{
+        font-size: 4rem;
+    }
+}
